@@ -42,6 +42,10 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
+## Screenshot
+
+![screenshot of application](./readme-images/demo.png)
+
 ## Stack
 
 * nodejs
@@ -62,6 +66,8 @@ npm run start:dev
 ```
 
 ## Live Site
+
+[heroku deployment](https://blooming-headland-71691.herokuapp.com/)
 
 
 ## License
