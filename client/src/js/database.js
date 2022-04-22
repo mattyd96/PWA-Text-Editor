@@ -26,7 +26,7 @@ export const getDb = async () => {
   const tx = db.transaction('jate', 'readonly');
   const request = tx.objectStore('jate').getAll();
   const result = await request;
-  return result[0].content;
+  return result;
 };
 
 initdb();
